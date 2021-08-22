@@ -1,0 +1,21 @@
+{
+  "name": "@sveltelib/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Madhukar Jhs",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "playgrounds/*"
+    ]
+  }
+}
